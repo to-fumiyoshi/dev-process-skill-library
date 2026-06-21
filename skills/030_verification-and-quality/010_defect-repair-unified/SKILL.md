@@ -1,6 +1,6 @@
 ---
 name: defect-repair-unified
-description: '機能不具合の原因調査から対応案決定・改修・検証・報告までを一貫管理したいときに使う、開発者承認ゲート付きの統合ワークフロー。'
+description: '機能不具合が発生し、原因調査から対応案決定・改修・検証まで承認記録を残しながら対応したいときに使う。'
 argument-hint: '[必須] title, 症状, 影響範囲。[推奨] 発生条件, 環境情報, 再現手順, 関連ログ/チケット。承認主体は開発者です。'
 user-invocable: true
 disable-model-invocation: false

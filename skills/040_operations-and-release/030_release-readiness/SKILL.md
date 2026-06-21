@@ -1,6 +1,6 @@
 ---
 name: release-readiness
-description: 'リリース前の確認事項、ロールアウト、ロールバック、監視、周知を統合整理し、本番投入可否を承認付きで判断するワークフロー。'
+description: '本番リリース前に確認漏れが心配、またはロールバック計画・投入可否の根拠を整備したいときに使う。'
 argument-hint: 'リリース対象、変更概要、依存先、リリース日、ロールバック条件、監視対象を記述してください。開発者が承認判断を行います。'
 user-invocable: true
 disable-model-invocation: false

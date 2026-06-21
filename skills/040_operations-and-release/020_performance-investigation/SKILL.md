@@ -1,6 +1,6 @@
 ---
 name: performance-investigation
-description: '計測に基づいて性能ボトルネックを特定し、仮説、改善案、検証計画を承認付きで整理するワークフロー。'
+description: '応答遅延やスループット低下が発生し、計測根拠に基づいてボトルネックを特定・改善したいときに使う。'
 argument-hint: '性能問題の症状、発生条件、目標値、計測可能な情報、影響範囲を記述してください。開発者が承認判断を行います。'
 user-invocable: true
 disable-model-invocation: false

@@ -1,6 +1,6 @@
 ---
 name: ddd-ai-responsibility
-description: 'DDD と AI 活用の責任分担を整理したいときに使う Skill。要件定義、モデリング、設計、実装、テスト、運用で、AI に任せることと人が判断することを明確にする。'
+description: 'DDD を進める各フェーズで AI に任せる範囲と人が判断すべき範囲が不明確なときに使う。'
 argument-hint: '対象フェーズ、業務資料、要件、設計情報、障害情報などを渡してください。'
 user-invocable: true
 disable-model-invocation: false

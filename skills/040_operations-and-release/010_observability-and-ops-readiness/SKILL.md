@@ -1,6 +1,6 @@
 ---
 name: observability-and-ops-readiness
-description: 'ログ、メトリクス、アラート、運用手順、初動観点を整理し、運用で検知と復旧が回る状態を作るワークフロー。'
+description: 'リリース前または障害後に、ログ・メトリクス・アラート・初動手順が運用要件を満たしているか確認し、可観測性を整えたいときに使う。'
 argument-hint: '対象システム、監視したい事象、運用体制、既存のログとメトリクス、アラート条件を記述してください。開発者が承認判断を行います。'
 user-invocable: true
 disable-model-invocation: false

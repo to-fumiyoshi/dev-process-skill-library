@@ -1,6 +1,6 @@
 ---
 name: incident-postmortem
-description: '障害や重大インシデントの事実、原因、判断、再発防止策を整理し、組織学習へ繋げる振り返りワークフロー。'
+description: '障害や重大インシデントが発生し、事実・原因・判断・再発防止策を整理して組織学習につなげたいときに使う。'
 argument-hint: '対象インシデント、発生日時、影響範囲、初動対応、既知の事実、未確定事項を記述してください。開発者が承認判断を行います。'
 user-invocable: true
 disable-model-invocation: false

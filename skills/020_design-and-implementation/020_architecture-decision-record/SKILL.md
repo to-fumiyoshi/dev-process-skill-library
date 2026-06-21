@@ -1,6 +1,6 @@
 ---
 name: architecture-decision-record
-description: '設計判断の背景、選択肢、比較軸、決定理由、影響範囲を ADR 形式で整理し、承認付きで残すための統合ワークフロー。'
+description: '設計上の重要な判断を ADR 形式で記録し、選択肢・決定理由・影響範囲を将来にわたって追跡可能にしたいときに使う。'
 argument-hint: '判断したい設計テーマ、背景、制約、候補案、影響範囲、期限を記述してください。開発者が承認判断を行います。'
 user-invocable: true
 disable-model-invocation: false

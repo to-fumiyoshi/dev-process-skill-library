@@ -1,6 +1,6 @@
 ---
 name: 'skill'
-description: '[簡潔な説明（日本語1文）]'
+description: '[利用条件を示す1文（「〜したいときに使う」形式。ワークフローの説明ではなく、利用する場面・症状・状況を記述する）]'
 argument-hint: '[ユーザーが入力する初期情報の指示（日本語）]'
 user-invocable: true
 disable-model-invocation: false

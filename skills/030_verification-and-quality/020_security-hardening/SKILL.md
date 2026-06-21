@@ -1,6 +1,6 @@
 ---
 name: security-hardening
-description: 'セキュリティ要件、脅威、対策、検証を統合的に整理し、実装前後で脆弱性混入を抑えるための承認付きワークフロー。'
+description: '実装前後にセキュリティ要件と脅威を洗い出し、脆弱性の混入を防ぎながら対策と検証を承認付きで進めたいときに使う。'
 argument-hint: '対象機能、想定脅威、保護対象データ、認証認可や監査要件を記述してください。開発者が承認判断を行います。'
 user-invocable: true
 disable-model-invocation: false

@@ -1,6 +1,6 @@
 ---
 name: test-strategy-unified
-description: '単体・結合・E2E を横断してテスト戦略を統合整理し、対象変更に対する十分な検証範囲と実行順序を承認付きで決定する。'
+description: '単体・結合・E2E を横断してテスト戦略を整備し、対象変更に対する検証範囲と実行順序を承認付きで決定したいときに使う。'
 argument-hint: '対象変更の概要、影響範囲、既存テスト資産、受入条件を記述してください。開発者が承認判断を行います。'
 user-invocable: true
 disable-model-invocation: false

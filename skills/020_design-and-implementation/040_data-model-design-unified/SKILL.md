@@ -1,6 +1,6 @@
 ---
 name: data-model-design-unified
-description: '要件から概念モデル、論理モデル、物理モデルを一貫して設計し、ERD/データ辞書/DDL方針を承認付きで確定する統合ワークフロー。'
+description: '概念・論理・物理モデルを要件から一貫して設計し、ERD・データ辞書・DDL 方針を承認付きで確定したいときに使う。'
 argument-hint: '背景、対象業務、主要エンティティ候補、データ制約、性能要件、既存DB有無を記述してください。開発者が承認判断を行います。'
 user-invocable: true
 disable-model-invocation: false

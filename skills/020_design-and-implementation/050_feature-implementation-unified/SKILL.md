@@ -1,6 +1,6 @@
 ---
 name: feature-implementation-unified
-description: '新規機能や仕様変更で、要件整理から方式決定・実装・検証・報告までを一貫管理したいときに使う、開発者承認ゲート付きの統合ワークフロー。'
+description: '新規機能の追加や既存機能の仕様変更を、要件確認から実装・検証まで承認記録を残して段階的に進めたいときに使う。'
 argument-hint: '[必須] title, 背景, スコープ, 受入条件。[推奨] 非機能要件, 制約, 関連仕様/リンク, 既知リスク。承認主体は開発者です。'
 user-invocable: true
 disable-model-invocation: false

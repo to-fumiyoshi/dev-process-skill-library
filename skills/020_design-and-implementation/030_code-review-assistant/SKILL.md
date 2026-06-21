@@ -1,6 +1,6 @@
 ---
 name: code-review-assistant
-description: 'レビュー観点、優先順位、指摘の粒度、差戻し基準を整理し、レビュー品質を平準化する運用ワークフロー。'
+description: 'レビュー品質にムラがある、または指摘の優先順位・差戻し基準・観点をチームで統一したいときに使う。'
 argument-hint: 'レビュー対象、変更概要、重点観点、既知リスク、チームのレビュー基準を記述してください。開発者が承認判断を行います。'
 user-invocable: true
 disable-model-invocation: false

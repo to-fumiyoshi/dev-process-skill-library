@@ -1,6 +1,6 @@
 ---
 name: documentation-sync
-description: '実装変更と文書更新の対象、優先順位、更新タイミングを整理し、ドキュメント陳腐化を防ぐ運用ワークフロー。'
+description: '実装変更後にドキュメントの陳腐化が心配なとき、更新対象・優先順位・更新タイミングを整理したいときに使う。'
 argument-hint: '対象変更、影響する文書、更新の締切、読者、未更新リスクを記述してください。開発者が承認判断を行います。'
 user-invocable: true
 disable-model-invocation: false

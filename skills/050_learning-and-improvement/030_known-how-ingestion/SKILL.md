@@ -1,6 +1,6 @@
 ---
 name: known-how-ingestion
-description: 'チャットで共有された暗黙知を構造化し、Skill の新規追加・改善・統合・廃止判断へ反映したいときに使うナレッジ取り込みワークフロー。'
+description: 'チャットで話したノウハウや判断基準を Skill ライブラリへ反映したいとき、または既存 Skill の改善・統合・廃止を判断したいときに使う。'
 argument-hint: '[必須] 背景, 課題, 対処方法, 対象領域。[推奨] 再利用範囲, 成功/失敗パターン, 機密区分, 既存Skillとの関係。承認主体はユーザです。'
 user-invocable: true
 disable-model-invocation: false

@@ -1,6 +1,6 @@
 ---
 name: refactoring-safety
-description: 'リファクタリング対象、影響範囲、既存動作保証、段階的変更方針を整理し、品質を落とさずに内部改善を進めるワークフロー。'
+description: '外部動作を変えずに内部品質を改善したいとき、リファクタリング対象・影響範囲・変更方針を安全に整備したいときに使う。'
 argument-hint: '対象コード、改善したい問題、変更禁止事項、既存の保証手段、懸念点を記述してください。開発者が承認判断を行います。'
 user-invocable: true
 disable-model-invocation: false
