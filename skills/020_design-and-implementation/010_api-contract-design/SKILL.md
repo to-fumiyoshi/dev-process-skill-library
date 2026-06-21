@@ -1,6 +1,6 @@
 ---
 name: api-contract-design
-description: 'API の入出力・エラー設計・後方互換性を実装前に確定し、契約の破壊を防ぎながら合意を取りたいときに使う。'
+description: 'API の入出力・エラー設計・後方互換性を実装前に確定したいとき、または後方互換性の破壊や利用者への影響が心配なときに使う。'
 argument-hint: '対象 API、利用者、入力出力、互換性制約、想定エラー、依存先を記述してください。開発者が承認判断を行います。'
 user-invocable: true
 disable-model-invocation: false

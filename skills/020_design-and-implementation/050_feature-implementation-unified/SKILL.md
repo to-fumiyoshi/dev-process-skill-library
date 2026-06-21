@@ -1,6 +1,6 @@
 ---
 name: feature-implementation-unified
-description: '新規機能の追加や既存機能の仕様変更を、要件確認から実装・検証まで承認記録を残して段階的に進めたいときに使う。'
+description: '新規機能を追加するとき、または既存機能の仕様変更が必要なときに使う。'
 argument-hint: '[必須] title, 背景, スコープ, 受入条件。[推奨] 非機能要件, 制約, 関連仕様/リンク, 既知リスク。承認主体は開発者です。'
 user-invocable: true
 disable-model-invocation: false
@@ -12,7 +12,7 @@ disable-model-invocation: false
 
 
 ## 利用する場面
-- C# / .NET アプリケーションで新規機能を追加したい
+- 新規機能を追加したい
 - 既存機能の仕様変更を、段階的に安全に進めたい
 - 開発者承認ゲートを維持しながら、AI支援で調査・実装・検証を進めたい
 - 要件からテストまでの証跡を追跡可能に残したい

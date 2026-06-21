@@ -1,6 +1,6 @@
 ---
 name: security-hardening
-description: '実装前後にセキュリティ要件と脅威を洗い出し、脆弱性の混入を防ぎながら対策と検証を承認付きで進めたいときに使う。'
+description: '実装前後にセキュリティ要件を確認したいとき、または認証・認可・入力検証・秘密管理の抜け漏れや脆弱性の混入を防ぎたいときに使う。'
 argument-hint: '対象機能、想定脅威、保護対象データ、認証認可や監査要件を記述してください。開発者が承認判断を行います。'
 user-invocable: true
 disable-model-invocation: false

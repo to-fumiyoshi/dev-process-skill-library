@@ -1,6 +1,6 @@
 ---
 name: requirements-refinement
-description: '実装着手前に要求が曖昧、受入条件・非機能要件・スコープ境界が未確定のときに承認付きで要件を確定したいときに使う。'
+description: '実装着手前に要求が曖昧なとき、または受入条件・非機能要件・スコープ境界が未確定のときに使う。'
 argument-hint: '背景、達成したい成果、対象範囲、除外範囲、非機能要件、現時点の不明点を記述してください。開発者が承認判断を行います。'
 user-invocable: true
 disable-model-invocation: false

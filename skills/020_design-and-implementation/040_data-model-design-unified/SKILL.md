@@ -1,6 +1,6 @@
 ---
 name: data-model-design-unified
-description: '概念・論理・物理モデルを要件から一貫して設計し、ERD・データ辞書・DDL 方針を承認付きで確定したいときに使う。'
+description: '要件からデータ構造を設計する必要があるとき、または ERD・データ辞書・DDL 方針を実装前に合意したいときに使う。'
 argument-hint: '背景、対象業務、主要エンティティ候補、データ制約、性能要件、既存DB有無を記述してください。開発者が承認判断を行います。'
 user-invocable: true
 disable-model-invocation: false
