@@ -8,6 +8,22 @@ disable-model-invocation: false
 
 # DDD AI Responsibility Skill
 
+## このスキルが解く問題（教育）
+
+<!-- AI実行対象外。3項目合計で最大200文字（1項目あたり約65文字を目安）。人間が読む学習コンテキスト -->
+
+- DDD の各フェーズで AI の役割が不明確だと、ドメインエキスパートの判断が AI に丸投げされる
+- AI への依頼を「たたき台生成」に限定し、判断は人が行う。逆だと AI の仮説がモデルに固定される
+- AI はユビキタス言語を提案できるが「業務の真実を表しているか」は人しか判断できない
+
+## 前提スキル / 次のステップ（教育）
+
+<!-- AI実行対象外。最大5項目。密接な依存は個スキルレベルで、参考程度はカテゴリレベルでリンクする -->
+
+- 前提: [010_requirements-refinement](../../010_requirements-and-planning/010_requirements-refinement/SKILL.md)
+- セットで使う: [040_data-model-design-unified](../../020_design-and-implementation/040_data-model-design-unified/SKILL.md)（モデル設計フェーズ）
+- セットで使う: [050_feature-implementation-unified](../../020_design-and-implementation/050_feature-implementation-unified/SKILL.md)（実装フェーズ）
+
 ## 利用する場面
 
 - DDD を進める中で、AI に任せる範囲と人が決める範囲を整理したい
@@ -78,6 +94,14 @@ disable-model-invocation: false
 
 出力: 事象整理、影響分析、改善案  
 ゲート条件: 短期対処と中長期改善が切り分けられていること
+
+## 実行前の自己確認（開発者向け）（教育）
+
+<!-- AI実行対象外。Phase 1開始前に開発者が確認するチェックリスト。最大5項目 -->
+
+- [ ] 今から依頼する作業が「AI に生成させるもの」か「AI に判断させるもの」かを区別できる
+- [ ] ドメインエキスパートが確認できる体制がある
+- [ ] AI の出力を「たたき台」として扱う（正解として扱わない）ことに同意している
 
 ## 入力リファレンス
 

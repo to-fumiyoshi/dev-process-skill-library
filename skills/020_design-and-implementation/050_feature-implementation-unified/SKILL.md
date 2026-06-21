@@ -10,6 +10,22 @@ disable-model-invocation: false
 
 省略用語（RACI, KPI, ADR, DDL, SLO, QA, PM, TRK, EX）は [../../shared-references/glossary.md](../../shared-references/glossary.md) の『略語・日本語対応表』を参照してください。
 
+## このスキルが解く問題（教育）
+
+<!-- AI実行対象外。3項目合計で最大200文字（1項目あたり約65文字を目安）。人間が読む学習コンテキスト -->
+
+- 受入条件なしで実装を始めると「完成」の定義が変わり続け、スコープが膨らむ
+- 調査 → 実装 → テストの順序を守る。テストを後回しにすると検証基準が変わる
+- AI は実装を支援するが「何を作るか」「これでいいか」は常に開発者が決める
+
+## 前提スキル / 次のステップ（教育）
+
+<!-- AI実行対象外。最大5項目。密接な依存は個スキルレベルで、参考程度はカテゴリレベルでリンクする -->
+
+- 前提: [010_requirements-refinement](../../010_requirements-and-planning/010_requirements-refinement/SKILL.md)（受入条件が確定している状態）
+- 次: [030_code-review-assistant](../030_code-review-assistant/SKILL.md)（実装後のレビュー）
+- 次: [010_documentation-sync](../../050_learning-and-improvement/010_documentation-sync/SKILL.md)（ドキュメント更新）
+- 次: [010_defect-repair-unified](../../030_verification-and-quality/010_defect-repair-unified/SKILL.md)（不具合発生時）
 
 ## 利用する場面
 - 新規機能を追加したい
@@ -169,6 +185,14 @@ flowchart TD
 ```
 - SKILL.md と runbook が不一致なら runbook を正とする
 - 実行ログは履歴媒体であり、手順の正本として扱わない
+
+## 実行前の自己確認（開発者向け）（教育）
+
+<!-- AI実行対象外。Phase 1開始前に開発者が確認するチェックリスト。最大5項目 -->
+
+- [ ] 受入条件が「判定可能な文」になっている
+- [ ] 非機能要件（性能・セキュリティ）が受入条件に含まれているか確認した
+- [ ] 既存機能への影響範囲をイメージできる
 
 ## 入力リファレンス
 - 正本（詳細手順・判定基準）: runbook.md

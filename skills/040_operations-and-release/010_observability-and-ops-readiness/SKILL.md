@@ -10,6 +10,21 @@ disable-model-invocation: false
 
 省略用語（RACI, KPI, ADR, DDL, SLO, QA, PM, TRK, EX）は [../../shared-references/glossary.md](../../shared-references/glossary.md) の『略語・日本語対応表』を参照してください。
 
+## このスキルが解く問題（教育）
+
+<!-- AI実行対象外。3項目合計で最大200文字（1項目あたり約65文字を目安）。人間が読む学習コンテキスト -->
+
+- ログ・メトリクスがなければ本番で何が起きているか「見えない」。見えない障害は初動が遅れる
+- リリース前に観測設計をする。障害後に「あとからログを足す」は再現待ちを強いる
+- 「問題が起きた後で調べられるか」を設計基準にする。予測できなくても観測はできる
+
+## 前提スキル / 次のステップ（教育）
+
+<!-- AI実行対象外。最大5項目。密接な依存は個スキルレベルで、参考程度はカテゴリレベルでリンクする -->
+
+- 前提: [050_feature-implementation-unified](../../020_design-and-implementation/050_feature-implementation-unified/SKILL.md)（実装が完了している状態）
+- 次: [030_release-readiness](../030_release-readiness/SKILL.md)（観測設計完了後のリリース確認）
+- 次: [020_incident-postmortem](../../050_learning-and-improvement/020_incident-postmortem/SKILL.md)（障害発生時）
 
 ## 利用する場面
 - 障害を早く検知できる状態にしたい
@@ -147,6 +162,14 @@ flowchart TD
 ## 記録・証跡
 - 各段階の内容を `docs/skill-logs/observability_ops_${DATE}.md` に append-only で記録する
 - 検知対象、アラート条件、初動手順、例外、承認者を明記する
+
+## 実行前の自己確認（開発者向け）（教育）
+
+<!-- AI実行対象外。Phase 1開始前に開発者が確認するチェックリスト。最大5項目 -->
+
+- [ ] 「障害時に最初に何を見るか」を一言で説明できる
+- [ ] アラートの誤報が多いと運用が崩壊すると理解している（閾値設計の重要性）
+- [ ] 初動対応手順の更新責任者が決まっている
 
 ## 入力リファレンス
 - 正本: runbook.md

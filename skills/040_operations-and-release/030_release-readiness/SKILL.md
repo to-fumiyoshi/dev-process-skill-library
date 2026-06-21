@@ -8,6 +8,22 @@ disable-model-invocation: false
 
 # リリース準備 Skill（統合フレームワーク）
 
+## このスキルが解く問題（教育）
+
+<!-- AI実行対象外。3項目合計で最大200文字（1項目あたり約65文字を目安）。人間が読む学習コンテキスト -->
+
+- リリース時の確認漏れは本番障害に直結する。チェックリストなしのリリースは属人的リスクになる
+- ロールバック計画を先に決める。障害時に慌てて考えると判断が遅れる
+- 「問題が起きたとき元に戻せるか」が最低限必要なリリース条件
+
+## 前提スキル / 次のステップ（教育）
+
+<!-- AI実行対象外。最大5項目。密接な依存は個スキルレベルで、参考程度はカテゴリレベルでリンクする -->
+
+- 前提: [030_test-strategy-unified](../../030_verification-and-quality/030_test-strategy-unified/SKILL.md)
+- 前提: [010_observability-and-ops-readiness](../010_observability-and-ops-readiness/SKILL.md)
+- 次: [020_incident-postmortem](../../050_learning-and-improvement/020_incident-postmortem/SKILL.md)（リリース後に問題が発生した場合）
+
 ## 利用する場面
 - リリース前の確認漏れを防ぎたい
 - ロールアウトとロールバックを事前に詰めたい
@@ -147,6 +163,14 @@ flowchart TD
 ## 記録・証跡
 - 各段階の内容を `docs/skill-logs/release_readiness_${DATE}.md` に append-only で記録する
 - リリース対象、依存先、例外、承認者、ロールバック条件を明記する
+
+## 実行前の自己確認（開発者向け）（教育）
+
+<!-- AI実行対象外。Phase 1開始前に開発者が確認するチェックリスト。最大5項目 -->
+
+- [ ] ロールバック手順を 1 ページで説明できる
+- [ ] 監視アラートの確認先が決まっている
+- [ ] 「問題なし」を判断するタイムラインが決まっている
 
 ## 入力リファレンス
 - 正本: runbook.md

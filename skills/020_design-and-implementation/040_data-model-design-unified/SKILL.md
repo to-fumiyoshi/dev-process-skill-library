@@ -10,6 +10,21 @@ disable-model-invocation: false
 
 省略用語（RACI, KPI, ADR, DDL, SLO, QA, PM, TRK, EX）は [../../shared-references/glossary.md](../../shared-references/glossary.md) の『略語・日本語対応表』を参照してください。
 
+## このスキルが解く問題（教育）
+
+<!-- AI実行対象外。3項目合計で最大200文字（1項目あたり約65文字を目安）。人間が読む学習コンテキスト -->
+
+- データ構造を実装後に変えると、マイグレーションと影響箇所の修正が連鎖し大きなコストになる
+- ERD を先に固める。実装開始後のデータモデル変更は複数レイヤに波及する
+- データモデルは「最も変えにくいもの」。実装前に DDL と辞書を合意することが技術的負債の予防
+
+## 前提スキル / 次のステップ（教育）
+
+<!-- AI実行対象外。最大5項目。密接な依存は個スキルレベルで、参考程度はカテゴリレベルでリンクする -->
+
+- 前提: [010_requirements-refinement](../../010_requirements-and-planning/010_requirements-refinement/SKILL.md)
+- セットで使う: [010_api-contract-design](../010_api-contract-design/SKILL.md)（API 設計と整合確認）
+- 次: [050_feature-implementation-unified](../050_feature-implementation-unified/SKILL.md)（実装へ）
 
 ## 利用する場面
 - 要件からデータ構造を設計し、実装前に合意したい
@@ -148,6 +163,14 @@ flowchart TD
 ## 記録・証跡
 - 各段階の内容を `docs/skill-logs/data_model_design_${DATE}.md` に append-only で記録する
 - 要件ID、モデル案、制約、承認者、決定理由を明記する
+
+## 実行前の自己確認（開発者向け）（教育）
+
+<!-- AI実行対象外。Phase 1開始前に開発者が確認するチェックリスト。最大5項目 -->
+
+- [ ] 主要なエンティティを3つ以上挙げられる
+- [ ] NULL 許可・一意制約の方針が決まっている
+- [ ] 既存 DB がある場合、マイグレーションの影響範囲を見積もれる
 
 ## 入力リファレンス
 - 正本: runbook.md

@@ -10,6 +10,21 @@ disable-model-invocation: false
 
 省略用語（RACI, KPI, ADR, DDL, SLO, QA, PM, TRK, EX）は [../../shared-references/glossary.md](../../shared-references/glossary.md) の『略語・日本語対応表』を参照してください。
 
+## このスキルが解く問題（教育）
+
+<!-- AI実行対象外。3項目合計で最大200文字（1項目あたり約65文字を目安）。人間が読む学習コンテキスト -->
+
+- 設計判断の「理由」が記録されないと、後から「なぜそうなったか」誰もわからなくなる
+- 候補案を決定前に並べる。決定後には「なぜ選ばなかったか」の記憶が消える
+- ADR の価値は「何を決めたか」ではなく「なぜ他の案を選ばなかったか」を残すことにある
+
+## 前提スキル / 次のステップ（教育）
+
+<!-- AI実行対象外。最大5項目。密接な依存は個スキルレベルで、参考程度はカテゴリレベルでリンクする -->
+
+- 前提: [010_requirements-refinement](../../010_requirements-and-planning/010_requirements-refinement/SKILL.md)（設計判断の背景となる要件が固まっている状態）
+- 次: [050_feature-implementation-unified](../050_feature-implementation-unified/SKILL.md)（設計を実装に反映するとき）
+- 次: [040_data-model-design-unified](../040_data-model-design-unified/SKILL.md)（データ設計の意思決定を記録するとき）
 
 ## 利用する場面
 - 設計判断の理由を将来追跡できる形で残したい
@@ -150,6 +165,14 @@ flowchart TD
 ## 記録・証跡
 - 各段階の内容を `docs/skill-logs/adr_${DATE}.md` に append-only で記録する
 - 採用案、却下案、根拠、影響範囲、承認者を明記する
+
+## 実行前の自己確認（開発者向け）（教育）
+
+<!-- AI実行対象外。Phase 1開始前に開発者が確認するチェックリスト。最大5項目 -->
+
+- [ ] この判断が将来変更・参照される可能性があると思える
+- [ ] 候補案を2つ以上挙げられる
+- [ ] 判断の前提条件（将来変わる可能性がある事柄）を言える
 
 ## 入力リファレンス
 - 正本: runbook.md
